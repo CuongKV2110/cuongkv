@@ -1,8 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
 
-import imgMkj from './assets/banner_new.png';
-import bannerApp from './assets/app/bannerApp.png';
 import icIos from './assets/ic_ios.png';
 import icAndroid from './assets/ic_android.png';
 import imgMomlingo from './assets/momlingo.png';
