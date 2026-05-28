@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './App.css';
 
 import imgMkj from './assets/banner_new.png';
@@ -52,20 +52,6 @@ function useScrollReveal() {
 
 function HomePage() {
   const addToRefs = useScrollReveal();
-  const heroSlides = [imgMkj, bannerApp];
-  const [slideIndex, setSlideIndex] = useState(0);
-  const [slideVisible, setSlideVisible] = useState(true);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setSlideVisible(false);
-      setTimeout(() => {
-        setSlideIndex(i => (i + 1) % heroSlides.length);
-        setSlideVisible(true);
-      }, 400);
-    }, 3000);
-    return () => clearInterval(timer);
-  }, []);
 
   const apps = [
     {
