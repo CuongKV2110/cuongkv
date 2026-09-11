@@ -7,10 +7,14 @@ import imgMomlingo from './assets/momlingo.png';
 import imgPedometer from './assets/pedometer.png';
 import imgPlant from './assets/plant.png';
 import imgLoan from './assets/loan.png';
-import imgClean from './assets/clean.png';
 import imgTextToSpeech from './assets/texttospeed.png';
-import imgMods from './assets/mods.png';
 import imgLoanAndroid from './assets/tr210.png';
+import imgGpsCamera from './assets/gps.png';
+import imgRemote from './assets/remote.png';
+import imgFlo from './assets/flo.png';
+import imgCoin from './assets/coin.png';
+import imgCycleSleep from './assets/cycle_sleep.png';
+import imgQrSnap from './assets/qrcode.png';
 import icFb from './assets/ic_fb.png';
 import imgGold from './assets/gold.png';
 import imgSliver from './assets/sliver.png';
@@ -93,14 +97,6 @@ function HomePage() {
       appStore: 'https://apps.apple.com/us/app/document-voice-reader/id6766188814'
     },
     {
-      name: 'Phone Cleaner - Photo Manager',
-      category: 'Utilities',
-      description: 'Clean up duplicate photos, manage storage, and optimize your phone performance.',
-      image: imgClean,
-      playStore: '',
-      appStore: 'https://apps.apple.com/vn/app/phone-cleaner-photo-manager/id6766741717'
-    },
-    {
       name: 'EMI Calculator - Loan & Finance',
       category: 'Finance',
       description: 'Easily calculate EMIs for home loans, car loans, and manage your personal finances.',
@@ -109,12 +105,52 @@ function HomePage() {
       appStore: ''
     },
     {
-      name: 'Morph Addons Mods for Minecraft',
-      category: 'Gaming/Tools',
-      description: 'Discover and install the best morphing mods and addons for your Minecraft experience.',
-      image: imgMods,
-      playStore: 'https://play.google.com/store/apps/details?id=com.minecraft.morph.addons.mods',
-      appStore: ''
+      name: 'GPS Camera: Location & Time',
+      category: 'Travel',
+      description: 'Capture photos with GPS coordinates, address details, and timestamps embedded for organizing travel memories and outdoor activities.',
+      image: imgGpsCamera,
+      playStore: '',
+      appStore: 'https://apps.apple.com/us/app/gps-camera-location-time/id6776932642'
+    },
+    {
+      name: 'Smart Remote Controller TV',
+      category: 'Utilities',
+      description: 'Turn your iPhone or iPad into a WiFi remote control for smart TVs with volume, channel, and touchpad navigation.',
+      image: imgRemote,
+      playStore: '',
+      appStore: 'https://apps.apple.com/us/app/smart-remote-controller-tv/id6759699433'
+    },
+    {
+      name: 'Flo Period Tracker Smart',
+      category: 'Health & Fitness',
+      description: 'Track menstrual cycles, predict ovulation windows, and log daily symptoms with personalized health insights.',
+      image: imgFlo,
+      playStore: '',
+      appStore: 'https://apps.apple.com/us/app/flo-period-tracker-smart/id6784508476'
+    },
+    {
+      name: 'Coin Scanner & Collection',
+      category: 'Utilities/Tools',
+      description: 'Identify coins through camera scanning, organize collections, and access currency conversion tools.',
+      image: imgCoin,
+      playStore: '',
+      appStore: 'https://apps.apple.com/vn/app/coin-scanner-collection/id6772942348'
+    },
+    {
+      name: 'Cycle Sleep Rest',
+      category: 'Health & Fitness',
+      description: 'Track sleep cycles with ambient sound customization and smart alarms to help you wake up refreshed.',
+      image: imgCycleSleep,
+      playStore: '',
+      appStore: 'https://apps.apple.com/us/app/cycle-sleep-rest/id6786232729'
+    },
+    {
+      name: 'QR Snap: Instant Code Reader',
+      category: 'Utilities/Tools',
+      description: 'Scan QR codes and barcodes instantly, generate custom codes, and track weekly scanning activity.',
+      image: imgQrSnap,
+      playStore: '',
+      appStore: 'https://apps.apple.com/us/app/qr-snap-instant-code-reader/id6775690744'
     }
   ];
 
@@ -161,7 +197,7 @@ function HomePage() {
       years: '3+ years',
       tag: 'Deployment',
       tagColor: 'tag-backend',
-      description: 'Expert in full-cycle App Store Connect & Google Play Console — submission, policy compliance, and resolving store issues for 10+ apps.',
+      description: 'Expert in full-cycle App Store Connect & Google Play Console — submission, policy compliance, and resolving store issues for 20+ apps.',
       chips: ['App Store', 'Play Console', 'Policy', 'CI/CD']
     },
     {
@@ -215,10 +251,9 @@ function HomePage() {
           <div className="hero-profile-card fade-in">
             <h2 className="hero-profile-title">Profile Summary</h2>
             <ul className="hero-profile-list">
-              <li>4+ years of Flutter expertise — Clean Architecture, MVVM, SOLID for scalable apps.</li>
-              <li>Expert in full-cycle deployment on App Store & Google Play, including policy compliance.</li>
-              <li>Delivered 10+ apps for global markets across Finance, Health, Productivity & Gaming.</li>
-              <li>Strong cross-functional collaboration with BA, Design and Tester teams.</li>
+              <li>Mobile Engineer with 4+ years in Flutter/Dart, plus hands-on Native Android (Kotlin/Java) & iOS (Swift).</li>
+              <li>Strong in Clean Architecture, MVVM, SOLID, BLoC, Provider & Riverpod; skilled at optimizing UI/UX, memory, battery and crash rates.</li>
+              <li>End-to-end app development — REST APIs, Firebase, IAP/Subscriptions, CI/CD, and 20+ apps published on Google Play & App Store.</li>
               <li>Cultural leader — Head of Cultural Committee, driving team bonding & internal comms.</li>
             </ul>
             <div className="hero-profile-stats">
@@ -227,7 +262,7 @@ function HomePage() {
                 <span className="hero-stat-label">Years Experience</span>
               </div>
               <div className="hero-stat">
-                <span className="hero-stat-number">30+</span>
+                <span className="hero-stat-number">20+</span>
                 <span className="hero-stat-label">Apps Published</span>
               </div>
             </div>
